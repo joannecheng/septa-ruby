@@ -1,7 +1,15 @@
 A SEPTA api wrapper gem.
 
-Some example usage:
+to install:
+-----------------------
+>`git clone git@github.com:joannecheng/septa-ruby.git`
 
-  require 'septa-ruby'
+>`gem build septa-ruby/septa-ruby.gemspec`
 
-  Septa.get_bus_data(42)
+>`gem install septa-ruby/septa-ruby-(version #).gem`
+
+to use:
+-----------------------
+`require 'septa-ruby'`
+
+`Septa.get_bus_data(42)`
