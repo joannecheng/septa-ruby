@@ -29,3 +29,5 @@ desc "Clean automatically generated files"
 task :clean do
   FileUtils.rm_rf "pkg"
 end
+
+require 'rspec/core/rake_task'
