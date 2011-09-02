@@ -30,4 +30,9 @@ task :clean do
   FileUtils.rm_rf "pkg"
 end
 
+desc "Build and install" 
+task :install do
+  puts "..."
+end
+
 require 'rspec/core/rake_task'
