@@ -4,11 +4,11 @@ Gem::Specification.new do |s|
   s.name              = "septa-ruby"
   s.version           = "0.0.1"
   s.platform          = Gem::Platform::RUBY
-  s.authors           = ["Gonçalo Silva"]
-  s.email             = ["goncalossilva@gmail.com"]
+  s.authors           = ["Joanne Cheng"]
+  s.email             = ["chengjoanne2@gmail.com"]
   s.homepage          = "http://github.com/joannecheng/septa-ruby"
   s.summary           = "Ruby wrapper for the septa api"
-  s.description       = "A gem template"
+  s.description       = "An easier way to access SEPTA (Southeastern Pennsylvania Transit Authority) data."
   s.rubyforge_project = s.name
 
   s.required_rubygems_version = ">= 1.3.6"
