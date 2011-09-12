@@ -1,8 +1,8 @@
 # coding: UTF-8
 
 Gem::Specification.new do |s|
-  s.name              = "septa-ruby"
-  s.version           = "0.0.1"
+  s.name              = "septa"
+  s.version           = "1.0.0"
   s.platform          = Gem::Platform::RUBY
   s.authors           = ["Joanne Cheng"]
   s.email             = ["chengjoanne2@gmail.com"]
