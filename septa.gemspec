@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name              = "septa"
-  s.version           = "1.0.1"
+  s.version           = "1.0.2"
   s.platform          = Gem::Platform::RUBY
   s.authors           = ["Joanne Cheng"]
   s.email             = ["chengjoanne2@gmail.com"]
@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
 
   # The list of files to be contained in the gem
   #s.files         = `git ls-files`.split("\n")
-  s.files = ['lib/septa.rb', 'lib/septa/bus.rb']
+  s.files = ['lib/septa.rb', 'lib/septa/bus.rb', 'lib/septa/train.rb']
   # s.executables   = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
   # s.extensions    = `git ls-files ext/extconf.rb`.split("\n")
   
