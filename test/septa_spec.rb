@@ -8,7 +8,7 @@ describe 'SEPTA' do
 
   it 'should throw error if invalid route' do
     bus =  Septa::Bus.bus_locations(1924941)
-    bus["bus"].should be nil
+    bus.should be nil
   end
 
   it 'should return next to arrive' do 
