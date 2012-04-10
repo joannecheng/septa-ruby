@@ -29,4 +29,4 @@ Example:
 _Note: See http://www.opendataphilly.org/opendata/resource/171/septa-next-to-arrive/ to see allowed stops._
 
 Run Tests:
-> `rspec test/
+>`rspec test/`
