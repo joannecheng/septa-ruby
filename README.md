@@ -9,18 +9,20 @@ to use:
 >`require 'septa'`
 
 
-Getting bus locations:
+Getting raw response from bus_locations/<bus_number>:
 
-`Septa::Bus.bus_locations(*bus_route_name*)`
+>`bus = Septa::Bus.new(<bus_number>)`
 
-Example:
+>`bus.bus_locations()`
 
->`Septa::Bus.bus_locations(42)`
+Getting just location and vehicleID
+>`bus = Septa::Bus.new(<bus_number>)`
 
+>`bus.locations()`
 
 Next to arrive:
 
-`Septa::Train.next_to_arrive(City 1, City 2)`
+>`Septa::Train.next_to_arrive(City 1, City 2)`
 
 Example:
 
