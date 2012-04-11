@@ -4,7 +4,7 @@ describe 'SEPTA' do
   it 'should return current bus locations' do
     bus_42 = Septa::Bus.new(42)
     bus_42 = bus_42.bus_locations()
-    bus_42["bus"].should_not be nil
+    bus_42.should_not be nil
   end
 
   it 'should return latt and lng in as array of float' do

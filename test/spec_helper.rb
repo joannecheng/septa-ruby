@@ -1,5 +1,6 @@
 require 'rspec'
 require 'septa'
+require 'awesome_print'
 
 RSpec.configure do |config|
   config.color_enabled = true
