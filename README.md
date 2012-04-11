@@ -11,19 +11,22 @@ to use:
 
 Getting bus locations:
 
-`Septa.get_bus_data(*bus_route_name*)`
+`Septa::Bus.bus_locations(*bus_route_name*)`
 
 Example:
 
->`Septa.get_bus_data(42)`
+>`Septa::Bus.bus_locations(42)`
 
 
 Next to arrive:
 
-`Septa.next_to_arrive(City 1, City 2)`
+`Septa::Train.next_to_arrive(City 1, City 2)`
 
 Example:
 
->`Septa.next_to_arrive('Ambler', 'Angora')`
+>`Septa::Train.next_to_arrive('Ambler', 'Angora')`
 
 _Note: See http://www.opendataphilly.org/opendata/resource/171/septa-next-to-arrive/ to see allowed stops._
+
+Run Tests:
+>`rspec test/`
