@@ -8,7 +8,7 @@ module Septa
       @bus_number = bus_number
     end
 
-    def location
+    def locations
       locations = {}
       loc = self.bus_locations()
       unless loc.nil?
@@ -16,6 +16,7 @@ module Septa
           locations[l['VehicleID']] = [l['lat'], l['lng']]
         end
       end
+      locations
     end
 
     def bus_locations

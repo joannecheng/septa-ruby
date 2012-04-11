@@ -7,6 +7,13 @@ describe 'SEPTA' do
     bus_42["bus"].should_not be nil
   end
 
+  it 'should return latt and lng in as array of float' do
+    bus_42 = Septa::Bus.new(42)
+    bus_42 = bus_42.locations()
+    bus_42.should_not be nil
+    bus_42.should be_a_kind_of(Hash)
+  end
+
   it 'should return nil if invalid route' do
     bus =  Septa::Bus.new(1924941).bus_locations()
     bus.should be nil
