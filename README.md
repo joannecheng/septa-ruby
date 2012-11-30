@@ -2,7 +2,7 @@ A SEPTA api wrapper gem.
 
 to install:
 
->`gem install septa.gem`
+>`gem install septa` 
 
 to use:
 
@@ -29,6 +29,3 @@ Example:
 >`Septa::Train.next_to_arrive('Ambler', 'Angora')`
 
 _Note: See http://www.opendataphilly.org/opendata/resource/171/septa-next-to-arrive/ to see allowed stops._
-
-Run Tests:
->`rspec test/`
