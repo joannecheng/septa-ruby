@@ -28,7 +28,7 @@ module Septa
     end
 
     def bus_locations
-      septa_url = "http://www3.septa.org/TransitView/trips?route=#{@bus_number.to_s}"
+      septa_url = "http://www3.septa.org/hackathon/TransitView/trips?route=#{@bus_number.to_s}"
       resp = Resourceful.get(septa_url)
       unless resp.body.downcase.include? 'invalid route'
         locations = JSON.parse(resp.body)
